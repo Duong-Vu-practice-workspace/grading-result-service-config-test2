@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: result-service
-          image: DOCKERHUB_USERNAME/grading-result:IMAGE_TAG_REPLACEMENT
+          image: vucongtuanduong/grading-result:8aace33236353fb181927fa206b15324b7cb9395
           ports:
             - containerPort: 8084
           env:
