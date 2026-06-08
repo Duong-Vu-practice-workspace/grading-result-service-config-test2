@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: result-service
-          image: DOCKERHUB_USERNAME/result-service:IMAGE_TAG_REPLACEMENT
+          image: vucongtuanduong/result-service:v1.0.1
           ports:
             - containerPort: 8084
           env:
