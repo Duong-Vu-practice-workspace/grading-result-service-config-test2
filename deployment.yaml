@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: result-service
-          image: vucongtuanduong/grading-result:v1.0.2
+          image: vucongtuanduong/grading-result:v1.0.4
           ports:
             - containerPort: 8084
           env:
