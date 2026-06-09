@@ -1,4 +1,5 @@
 name: result-service
+hostname: result
 
 replicaCount: 1
 
